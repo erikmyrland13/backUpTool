@@ -1,8 +1,6 @@
-using System;
-
-namespace FolderSyncApp.Services;
-
-public class IFolderSyncService.cs
+// IFolderSyncService.cs
+// Interface for folder sync service
+public interface IFolderSyncService
 {
-
+    void Sync(string sourcePath, string replicaPath);
 }
